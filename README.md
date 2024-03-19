@@ -17,8 +17,12 @@ I have reproduced the lolliplot graph with different set of parameters.
   <img src="output/mda_lolliplot_3T_merged_network.png" width="200" />
   <img src="output/mdg_lolliplot_3T_merged_network.png" width="200" />
 </p>
-![Pre-Selected MDA Lolliplot 3T](output/mda_lolliplot_3T_merged_network.png) ![Pre-Selected MDG Lolliplot 3T](output/mdg_lolliplot_3T_merged_network.png)
-![Pre-Selected MDA Lolliplot 7T](output/mda_lolliplot_7T_merged_network.png) ![Pre-Selected MDG Lolliplot 7T](output/mdg_lolliplot_7T_merged_network.png)
+
+<p align="middle">
+  <img src="output/mda_lolliplot_7T_merged_network.png" width="200" />
+  <img src="output/mdg_lolliplot_7T_merged_network.png" width="200" />
+</p>
+
 
 [Prediction Fit](scripts/output_rf_stats_plot.R) This is adapted from @n8thangreen to produce a scatter plot to compare the fit of 3T and 7T data. <br>
 [Prediction Accuracy](output/rf_scatterplot_3T_7T.pdf)
