@@ -6,5 +6,6 @@ This part is adapted from Dr Nathan Green @n8thangreen. Their project can be fou
 I have reproduced the lolliplot graph with different set of parameters.
 ## 2. Phenotyping Superagers with Random Forest using Pre-selected Regions
 In this part, I ran random forest model in each of the six preselected regions.
+[Random Forest by Network](scripts/randomforest_network.R)
 ## 3. Phenotyping Superagers with Random Forest using All Regions
 I included datapoints from all of the regions and ran the random forest model twice. Lolliplots of the most important nodes are produced for both 3T and 7T data. Here important nodes refer to nodes that have a high MDA/MDG score.
