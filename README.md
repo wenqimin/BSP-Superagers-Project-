@@ -13,7 +13,7 @@ I have reproduced the lolliplot graph with different set of parameters.
 ### Output
 [Importance Lolliplot](scripts/imp_lolliplot.R) This file produces all the lolliplots below. <br>
 
-<p float="left">
+<p align="middle">
   <img src="output/mda_lolliplot_3T_merged_network.png" width="100" />
   <img src="output/mdg_lolliplot_3T_merged_network.png" width="100" />
 </p>
