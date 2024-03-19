@@ -9,12 +9,16 @@ I have reproduced the lolliplot graph with different set of parameters.
 [Random Forest by Network](scripts/randomforest_network.R) In this part, I ran random forest model in each of the six preselected regions. <br>
 [Important Nodes in Pre-selected Regions](scripts/rf_imp_network.R) Then I identified the most important nodes in each of the region. Here important nodes refer to nodes that have a high MDA/MDG score.
 
-### Output
-![Pre-Selected MDA Lolliplot 3T](output\mda_lolliplot_3T_merged_network.png) 
-![Pre-Selected MDG Lolliplot 3T](output\mdg_lolliplot_3T_merged_network.png)
-![Pre-Selected MDA Lolliplot 7T](output\mda_lolliplot_7T_merged_network.png)
-![Pre-Selected MDG Lolliplot 7T](output\mdg_lolliplot_7T_merged_network.png)
 
+### Output
+[Importance Lolliplot](scripts/imp_lolliplot.R) This file produces all the lolliplots below. <br>
+
+![Pre-Selected MDA Lolliplot 3T](output/mda_lolliplot_3T_merged_network.png) 
+![Pre-Selected MDG Lolliplot 3T](output/mdg_lolliplot_3T_merged_network.png)
+![Pre-Selected MDA Lolliplot 7T](output/mda_lolliplot_7T_merged_network.png)
+![Pre-Selected MDG Lolliplot 7T](output/mdg_lolliplot_7T_merged_network.png)
+
+[Prediction Fit](scripts/output_rf_stats_plot.R) This is adapted from @n8thangreen to produce a scatter plot to compare the fit of 3T and 7T data. <br>
 [Prediction Accuracy](output/rf_scatterplot_3T_7T.pdf)
 ## 3. Phenotyping Superagers with Random Forest using All Regions
 ### Analysis
