@@ -10,15 +10,20 @@ I have reproduced the lolliplot graph with different set of parameters.
 [Important Nodes in Pre-selected Regions](scripts/rf_imp_network.R) Then I identified the most important nodes in each of the region. Here important nodes refer to nodes that have a high MDA/MDG score.
 
 ### Output
-[Prediction Accuracy]("output/rf_scatterplot_3T_7T.pdf)
+![Pre-Selected MDA Lolliplot 3T](output\mda_lolliplot_3T_merged_network.png) 
+![Pre-Selected MDG Lolliplot 3T](output\mdg_lolliplot_3T_merged_network.png)
+![Pre-Selected MDA Lolliplot 7T](output\mda_lolliplot_7T_merged_network.png)
+![Pre-Selected MDG Lolliplot 7T](output\mdg_lolliplot_7T_merged_network.png)
+
+[Prediction Accuracy](output/rf_scatterplot_3T_7T.pdf)
 ## 3. Phenotyping Superagers with Random Forest using All Regions
 ### Analysis
 [Repeated Random Forest on all Data](scripts/randomforest_includeall.R) I included datapoints from all of the regions and ran the random forest model twice. <br>
 [Important Nodes in All Regions](scripts/supraimp_nodes_final.R) I then evaluated the most important nodes out all nodes from all regions.
 ### Output
-[MDA Lolliplot 3T](output/mda_lolliplot_3T_merged_final.png)
-[MDG Lolliplot 3T](output/mdg_lolliplot_3T_merged_final.png)
-[MDA Lolliplot 7T](output/mda_lolliplot_7T_merged_final.png)
-[MDG Lolliplot 3T](output/mdg_lolliplot_7T_merged_final.png)
+![MDA Lolliplot 3T](output/mda_lolliplot_3T_merged_final.png)
+![MDG Lolliplot 3T](output/mdg_lolliplot_3T_merged_final.png)
+![MDA Lolliplot 7T](output/mda_lolliplot_7T_merged_final.png)
+1[MDG Lolliplot 3T](output/mdg_lolliplot_7T_merged_final.png)
 
 
