@@ -13,10 +13,8 @@ I have reproduced the lolliplot graph with different set of parameters.
 ### Output
 [Importance Lolliplot](scripts/imp_lolliplot.R) This file produces all the lolliplots below. <br>
 
-![Pre-Selected MDA Lolliplot 3T](output/mda_lolliplot_3T_merged_network.png) 
-![Pre-Selected MDG Lolliplot 3T](output/mdg_lolliplot_3T_merged_network.png)
-![Pre-Selected MDA Lolliplot 7T](output/mda_lolliplot_7T_merged_network.png)
-![Pre-Selected MDG Lolliplot 7T](output/mdg_lolliplot_7T_merged_network.png)
+![Pre-Selected MDA Lolliplot 3T](output/mda_lolliplot_3T_merged_network.png) ![Pre-Selected MDG Lolliplot 3T](output/mdg_lolliplot_3T_merged_network.png)
+![Pre-Selected MDA Lolliplot 7T](output/mda_lolliplot_7T_merged_network.png) ![Pre-Selected MDG Lolliplot 7T](output/mdg_lolliplot_7T_merged_network.png)
 
 [Prediction Fit](scripts/output_rf_stats_plot.R) This is adapted from @n8thangreen to produce a scatter plot to compare the fit of 3T and 7T data. <br>
 [Prediction Accuracy](output/rf_scatterplot_3T_7T.pdf)
@@ -25,9 +23,7 @@ I have reproduced the lolliplot graph with different set of parameters.
 [Repeated Random Forest on all Data](scripts/randomforest_includeall.R) I included datapoints from all of the regions and ran the random forest model twice. <br>
 [Important Nodes in All Regions](scripts/supraimp_nodes_final.R) I then evaluated the most important nodes out all nodes from all regions.
 ### Output
-![MDA Lolliplot 3T](output/mda_lolliplot_3T_merged_final.png)
-![MDG Lolliplot 3T](output/mdg_lolliplot_3T_merged_final.png)
-![MDA Lolliplot 7T](output/mda_lolliplot_7T_merged_final.png)
-1[MDG Lolliplot 3T](output/mdg_lolliplot_7T_merged_final.png)
+![MDA Lolliplot 3T](output/mda_lolliplot_3T_merged_final.png) ![MDG Lolliplot 3T](output/mdg_lolliplot_3T_merged_final.png)
+![MDA Lolliplot 7T](output/mda_lolliplot_7T_merged_final.png) ![MDG Lolliplot 3T](output/mdg_lolliplot_7T_merged_final.png)
 
 
