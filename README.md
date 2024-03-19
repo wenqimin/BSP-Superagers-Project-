@@ -14,8 +14,8 @@ I have reproduced the lolliplot graph with different set of parameters.
 [Importance Lolliplot](scripts/imp_lolliplot.R) This file produces all the lolliplots below. <br>
 
 <p align="middle">
-  <img src="output/mda_lolliplot_3T_merged_network.png" width="100" />
-  <img src="output/mdg_lolliplot_3T_merged_network.png" width="100" />
+  <img src="output/mda_lolliplot_3T_merged_network.png" width="200" />
+  <img src="output/mdg_lolliplot_3T_merged_network.png" width="200" />
 </p>
 ![Pre-Selected MDA Lolliplot 3T](output/mda_lolliplot_3T_merged_network.png) ![Pre-Selected MDG Lolliplot 3T](output/mdg_lolliplot_3T_merged_network.png)
 ![Pre-Selected MDA Lolliplot 7T](output/mda_lolliplot_7T_merged_network.png) ![Pre-Selected MDG Lolliplot 7T](output/mdg_lolliplot_7T_merged_network.png)
